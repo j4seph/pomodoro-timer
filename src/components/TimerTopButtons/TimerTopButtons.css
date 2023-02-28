@@ -1,0 +1,20 @@
+.info-and-settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.active {
+  pointer-events: none;
+}
+
+.label-text {
+  padding: 5px 15px;
+  margin: none;
+}
